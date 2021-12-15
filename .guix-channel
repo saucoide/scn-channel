@@ -2,4 +2,5 @@
 
 (channel
  (version 0)
- (url "https://github.com/saucoide/sn-channel"))
+ (url "https://github.com/saucoide/sn-channel")
+ (branch "main"))
