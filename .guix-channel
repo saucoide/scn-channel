@@ -1,7 +1,2 @@
-;; -*- mode: scheme; -*-
-
 (channel
- (version 0)
- (directory "packages")
- (url "https://github.com/saucoide/sn-channel")
- (branch "main"))
+ (version 0))
