@@ -1,18 +1,18 @@
-(define-module (gnu packages wm)
-  #:use-module ((guix licenses) #:prefix license:)
+(define-module (sn-channel packages qtile)
   #:use-module (guix packages)
   #:use-module (guix download)
-  ;; #:use-module (guix git-download)
+  #:use-module (guix build-system python)
+  #:use-module ((guix licenses) #:prefix license:)
+  #:use-module (gnu packages)
+  #:use-module (guix utils)
+  #:use-module (guix git-download)
   ;; #:use-module (guix build-system asdf)
   ;; #:use-module (guix build-system cmake)
   ;; #:use-module (guix build-system gnu)
   ;; #:use-module (guix build-system haskell)
   ;; #:use-module (guix build-system meson)
   ;; #:use-module (guix build-system perl)
-  #:use-module (guix build-system python)
   ;; #:use-module (guix build-system trivial)
-  ;; #:use-module (guix utils)
-  ;; #:use-module (gnu packages)
   ;; #:use-module (gnu packages bash)
   ;; #:use-module (gnu packages autotools)
   ;; #:use-module (gnu packages base)
@@ -71,9 +71,9 @@
 ) 
 
 
-(define-public qtile-sn
+(define-public qtile
   (package
-    (name "qtile-sn")
+    (name "qtile")
     (version "0.18.1")
     (source
       (origin
