@@ -19,9 +19,9 @@
   #:use-module (gnu packages python-xyz)
   #:use-module (gnu packages time))
 
-(define-public qtile
+(define-public qtile-scn
   (package
-    (name "qtile")
+    (name "qtile-scn")
     (version "0.18.1")
     (source
       (origin
