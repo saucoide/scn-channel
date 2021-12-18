@@ -1,4 +1,4 @@
-(define-module (snchannel packages qtile_wm)
+(define-module (scn packages scn-qtile)
   #:use-module ((guix licenses) #:prefix license:)
   #:use-module (guix packages)
   #:use-module (guix download)
