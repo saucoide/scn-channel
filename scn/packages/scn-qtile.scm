@@ -28,7 +28,7 @@
         (method url-fetch)
         (uri (pypi-uri "qtile" version))
         (sha256
-          (base32 "14hb26xkza7brvkd4276j60mxd3zsas72ih6y0cq3j060izm1865"))))
+         (base32 "0ssrxxvjddcsy76ipj8n1ypkmjrlgfmiqj9g3vrji8bpp2s8sh57"))))
     (build-system python-build-system)
     (arguments
      `(#:tests? #f ; Tests require Xvfb and writable temp/cache space
