@@ -22,7 +22,7 @@
 (define-public qtile-scn
   (package
     (name "qtile-scn")
-    (version "0.18.1")
+    (version "0.19.0")
     (source
       (origin
         (method url-fetch)
