@@ -6,7 +6,7 @@
   #:use-module (guix build-system font))
 
 
-(define-public nerd-fonts-scn)
+(define-public nerd-fonts-scn
   (package
     (name "nerd-fonts-scn")
     (version "2.1.0")
@@ -37,4 +37,4 @@
 of glyphs (icons).  Specifically to add a high number of extra glyphs
 from popular ‘iconic fonts’ such as Font Awesome, Devicons, Octicons,
 and others.")
-    (license gpl3+))
+    (license gpl3+)))
