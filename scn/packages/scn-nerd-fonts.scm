@@ -9,7 +9,7 @@
 (define-public nerd-fonts-scn
   (package
     (name "nerd-fonts-scn")
-    (version "2.1.0")
+    (version "2.3.3")
     (source
      (origin
        (method git-fetch)
